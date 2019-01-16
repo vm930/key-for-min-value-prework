@@ -4,7 +4,7 @@
 def key_for_min_value(name_hash)
   if name_hash.length !== 0
   name_hash.each {|name,num|
-    num < num -1
+    if num < num -1
     name
   elsif num == 0
     nil
